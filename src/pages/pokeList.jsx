@@ -5,11 +5,13 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import { Link } from 'react-router-dom'
 
 function PokeList() {
-  const [pokemonData, setPokemonData] = useState([])
-  const [searchTerm, setSearchTerm] = useState("")
-  const [error, setError] = useState("")
-  const [loading, setLoading] = useState(false)
+  // Se definen los estados
+  const [pokemonData, setPokemonData] = useState([]) // <- Almacena los datos de los pokemons
+  const [searchTerm, setSearchTerm] = useState("") // <- Almacena el termino de busqueda
+  const [error, setError] = useState("") // <- Almacena los errores
+  const [loading, setLoading] = useState(false) // <- Almacena el estado de carga
 
+  // Se usa la API para obtener los primeros 10 pokemons
   const BASE_URL = 'https://pokeapi.co/api/v2/pokemon?limit=10'
 
   const fetchPokemons = async () => {

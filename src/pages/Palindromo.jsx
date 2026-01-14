@@ -7,8 +7,10 @@ function Palindromo() {
   const [texto, setTexto] = useState("")
 
   const verificar = (text) => {
+    // Limpiar la entrada del texto
     const entrada = text.toLowerCase().replace(/[^a-z0-9]/g, '')
     if(!entrada) return false
+    // Comparar los valores ingresados
     const invertido = entrada.split('').reverse().join('')
     return entrada === invertido
   }
