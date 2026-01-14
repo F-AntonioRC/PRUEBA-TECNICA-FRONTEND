@@ -5,6 +5,7 @@ En este proyecto se utilizó ReactJS con Vite como entorno de desarrollo, aprove
 La aplicación se organizó siguiendo una estructura clásica de carpetas, separando los componentes reutilizables y las páginas principales, lo que facilita la mantenibilidad y escalabilidad del código.
 
 En cuanto al consumo de la PokeAPI, se optó por un manejo sencillo y directo en cada función, garantizando claridad y facilidad de comprensión. No obstante, este enfoque puede optimizarse en futuras iteraciones para mejorar aspectos como la seguridad, la eficiencia en las llamadas a la API y la gestión centralizada de servicios, lo que permitiría un mayor control y reutilización del código.
+Carpeta con los videos: https://drive.google.com/drive/folders/18ARI3WvrZGvSAXpMfrgrv1NsisAUFvBm?usp=sharing
 
 Versión de nodeJS: v20.19.6
 Versión de ReactJS: 19.2.0"
